@@ -1,3 +1,14 @@
+# Titanic Survival Prediction
+
+Predicting passenger survival using Machine Learning.
+Comparing RandomForest vs XGBoost on the Kaggle Titanic dataset.
+
+# Tech Stack
+- Python, Pandas, Scikit-learn, XGBoost
+- Pipeline, ColumnTransformer, Cross-Validation
+
+# Results
+
 In the first approach, we used RandomForest with a train/test split, 
 which gave us a MAE of 0.139. In the second approach, we used XGBoost 
 with Cross-Validation (5 folds), which gave a MAE of 0.172. 
